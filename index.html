@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+
+        <!-- font-awesome -->
+        <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
+
+        <!-- styles -->
+        <link rel="stylesheet" href="/css/styles-index.css" />
+  </head>
+
+ <body>
+      <!------------------------ Navbar Section --------------------------->
+      <nav>
+          <div class="nav-center">
+              <div class="nav-header">
+                 <h2>Autography.Lux</h2>
+                 <button class="nav-toggle"><i class="fas fa-bars"></i></button>
+              </div>
+              <!-- links -->
+              <ul class="links">
+                  <li>
+                    <a href="#" class="active" >home</a>
+                  </li>
+                  <li>
+                     <a href="#about">about</a>
+                  </li>
+                  <li>
+                     <a href="#contactus">Contact Us </a>
+                  </li>
+                  <li>
+                     <a href="./html/gallerie.html" target="_blank">Galleries</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+
+      <!------------------------------- Slider Section ---------------------------->
+      <div class="slider-container">
+         <div class="slide">
+             <img src="./images/1index.jpg" class="slide-img" alt="2bmw" />
+         </div>
+         <div class="slide">
+             <img src="./images/2index.jpg" class="slide-img" alt="1bmw" />
+         </div>
+         <div class="slide">
+             <img src="./images/3index.jpg" class="slide-img" alt="1bmw" />
+         </div>
+      </div>
+      <div class="btn-container">
+         <button type="button" class="prevBtn">
+            prev
+         </button>
+         <button type="button" class="nextBtn">
+            next
+         </button>
+      </div>
+    
+
+      <!---------------------------- About Section ------------------------------->
+      <section class="section" id="about">
+          <div class="title">
+              <h2>about</h2>
+          </div>
+ 
+          <div class="about-center section-center">
+               <article class="about-img">
+                   <img src="./images/logo-index.jpg" alt="logo" />
+               </article>
+               <article class="about">
+                   <div class="about-content">
+                      <!-- single item -->
+                      <div class="content active" id="history">
+                         <p>
+                             schlitz try-hard normcore marfa man bun
+                             mumblecore vice pop-up XOXO lomo kombucha glossier bicycle
+                             rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard
+                             tilde try-hard, woke fixie banjo man bun. Small batch tumeric
+                             mustache tbh wayfarers 8-bit shaman chartreuse tacos. Viral
+                             direct trade hoodie ugh chambray, craft beer pork belly flannel
+                             tacos single-origin coffee art party migas plaid pop-up.
+                         </p>
+                      </div>
+                   </div>
+                </article>
+           </div>
+      </section>
+
+
+      <!--------------------------------- Form Section -------------------------------->
+      <div class="form-section" id="contactus" >
+          <div class="container" >
+          <div class="header">
+             <h2>Contact Us</h2>
+          </div>
+          <form id="form" class="form">
+              <div class="form-control">
+                  <label for="username">Username</label>
+                  <input type="text" placeholder="florinpop17" id="username" />
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error message</small>
+              </div>
+              <div class="form-control">
+                  <label for="username">Email</label>
+                  <input type="email" placeholder="a@florin-pop.com" id="email" />
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error message</small>
+              </div>
+              <div class="form-control">
+                  <label for="username">Message</label>
+                  <input type="textarea" placeholder="message" id="textarea"/>
+                  <i class="fas fa-check-circle"></i>
+                  <i class="fas fa-exclamation-circle"></i>
+                  <small>Error message</small>
+              </div>
+              <button>Submit</button>
+          </form>
+          </div>
+     </div>
+
+
+     <!-------------------------------- Footer Section ------------------------------>
+     <div>
+         <footer class="footer">
+              <p>Copyright by HAJER ZAGA</p>
+              <ul class="social-icons">
+                 <li>
+                     <a href="https://www.facebook.com" target="_blank">
+                         <i class="fab fa-facebook"></i>
+                     </a>
+                 </li>
+                 <li>
+                     <a href="https://www.twitter.com" target="_blank">
+                         <i class="fab fa-twitter"></i>
+                     </a>
+                 </li>
+                 <li>
+                     <a href="https://www.instagram.com/autography.lux/" target="_blank">
+                         <i class="fab fa-instagram"></i>
+                     </a>
+                 </li>
+              </ul>
+         </footer>
+     </div>
+
+      <!-- javascript -->
+      <script src="/js/script-index.js"></script>
+  </body>
+</html>
